@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "5doFrVDcu1qz6VotRCE1834SMRXgjG/rMEz/2/FcbRlq7CCxFQ7rrXIgmv8B3HA2aJohX9Lmjp5fyiB/KEwNIw==",
+  "success": false,
+  "projectFilePath": "D:\\MasaiSchoolCourse\\JobAssignment\\BPK Technologies\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GAUTAM\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.22\\microsoft.entityframeworkcore.design.3.1.22.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Design 3.1.22 is not compatible with net40 (.NETFramework,Version=v4.0). Package Microsoft.EntityFrameworkCore.Design 3.1.22 supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    }
+  ]
+}

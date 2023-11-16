@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.22": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.Design/3.1.22": {
+      "sha512": "ecMfg0ZzSYxQKxK66OTSQy188AnQJ/LgGStv5zUGkoQTVwl6nwyKmLbRjmK481kooenYfxcTCWefG3uwzLWsGg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/3.1.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.22.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.22"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GAUTAM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\MasaiSchoolCourse\\JobAssignment\\BPK Technologies\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
+      "projectName": "SchoolManagmentSystem",
+      "projectPath": "D:\\MasaiSchoolCourse\\JobAssignment\\BPK Technologies\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
+      "packagesPath": "C:\\Users\\GAUTAM\\.nuget\\packages\\",
+      "outputPath": "D:\\MasaiSchoolCourse\\JobAssignment\\BPK Technologies\\SchoolManagmentSystem\\SchoolManagmentSystem\\SchoolManagmentSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\GAUTAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[3.1.22, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Design 3.1.22 is not compatible with net40 (.NETFramework,Version=v4.0). Package Microsoft.EntityFrameworkCore.Design 3.1.22 supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    }
+  ]
+}
