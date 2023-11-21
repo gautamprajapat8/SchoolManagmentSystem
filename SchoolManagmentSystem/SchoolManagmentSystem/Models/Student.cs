@@ -20,5 +20,6 @@ namespace SchoolManagmentSystem.Models
 
         // Navigation property for marks relationship
         public ICollection<SubjectMark> SubjectMarks { get; set; }
+        
     }
 }
