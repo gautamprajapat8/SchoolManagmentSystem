@@ -19,6 +19,7 @@ namespace SchoolManagmentSystem.Models
         public string PhoneNumber { get; set; }
 
         // Navigation property for marks relationship
+        
         public ICollection<SubjectMark> SubjectMarks { get; set; }
         
     }
